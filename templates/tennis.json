@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "sport": "tennis",
+    "interface": {
+        "pages": [
+            {
+                "title": "Serving",
+                "description": "Who serving first?",
+                "buttons": [
+                    [
+                        {
+                            "index": 0,
+                            "type": "button",
+                            "text": "{{ TEAM_A_NAME }}",
+                            "action": "goto page: 1"
+                        }
+                    ],
+                    [
+                        {
+                            "index": 1,
+                            "type": "button",
+                            "text": "{{ TEAM_B_NAME }}",
+                            "action": "goto page: 1"
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Match",
+                "description": "",
+                "buttons": [
+                    [
+                        {
+                            "index": 0,
+                            "type": "button",
+                            "text": "ACE",
+                            "action": "goto page: 1"
+                        },
+                        {
+                            "index": 1,
+                            "type": "button",
+                            "text": "FAULT",
+                            "action": "goto page: 1"
+                        }
+                    ],
+                    [
+                        {
+                            "index": 0,
+                            "type": "button",
+                            "text": "ACE",
+                            "action": "goto page: 1"
+                        },
+                        {
+                            "index": 1,
+                            "type": "button",
+                            "text": "FAULT",
+                            "action": "goto page: 1"
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
